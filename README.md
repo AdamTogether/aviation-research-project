@@ -25,15 +25,24 @@ The study looked at burnout-related emotions in three groups of pilots (commerci
 
 The pipeline has two stages:
 
+1. **Scrape.** `scrape.py` crawls the forums and saves each thread as its own JSON file in `JSON/<Category>/`.
+2. **Classify.** `emotion_analysis.py` scores every post in those files and produces two outputs:
+   - `JSON_results/<Category>/`: a copy of each thread file, with the emotion scores added to every post.
+   - `results.csv`: one row per post, used for the statistical analysis.
+
 ```
 airlinepilotforums.com
         │
         ▼
-  scrape.py           ──►  JSON/<Category>/<thread>.json          (one file per thread)
+    scrape.py
         │
         ▼
-  emotion_analysis.py ──►  JSON_results/<Category>/<thread>.json  (same data + per-post emotion scores)
-                      └─►  results.csv                             (one row per post, used for statistics)
+JSON/<Category>/<thread>.json
+        │
+        ▼
+emotion_analysis.py
+        ├──► JSON_results/<Category>/<thread>.json
+        └──► results.csv
 ```
 
 ## Dataset
