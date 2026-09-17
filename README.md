@@ -131,13 +131,13 @@ Versions reported in the paper:
 | beautifulsoup4 | 4.12.2 |
 | torch | 2.2.2 (with CUDA) |
 
-Also required (the paper does not report versions for these):
+Also required (I don't remember what versions were being used at the time, but here are the libs):
 
 - `requests`
 - `transformers`
 - `matplotlib`
 
-**An NVIDIA GPU with CUDA is required.** `emotion_analysis.py` hard-codes `torch.device("cuda")` and will fail on a CPU-only machine.
+`emotion_analysis.py` hard-codes `torch.device("cuda")` and will fail on a CPU-only machine unless you change it.
 
 ```bash
 # Install the CUDA build of PyTorch that matches your driver: https://pytorch.org/get-started/locally/
@@ -172,7 +172,7 @@ python scrape.py
 python emotion_analysis.py
 ```
 
-The model (about 500 MB) downloads from Hugging Face the first time you run this. The script prints the total elapsed time when it finishes.
+The model (~500 MB) downloads from Hugging Face the first time you run this. The script prints the total elapsed time when it finishes.
 
 ## Ethics
 
