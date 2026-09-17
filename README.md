@@ -1,4 +1,4 @@
-# The Emotional Landscape of Aviation Pilots: Scraper & Emotion Classification Pipeline
+# The Emotional Landscape of Aviation Pilots:<br/>Analysis of Online Professional Forums Using Natural Language Processing
 
 Data collection and NLP code for the paper:
 
