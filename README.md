@@ -40,9 +40,9 @@ airlinepilotforums.com
 
 | Paper group | Directory/CSV Forum Category | Posts |
 |---|---|---:|
-| Commercial passenger | `Major` | 712,464 |
-| Commercial cargo | `Cargo` | 361,519 |
-| Military | `Military` | 56,547 |
+| Commercial passenger | Major | 712,464 |
+| Commercial cargo | Cargo | 361,519 |
+| Military | Military | 56,547 |
 | **Total** | | **1,130,530** |
 
 - Posts span **February 18, 2005 to April 8, 2024**.
