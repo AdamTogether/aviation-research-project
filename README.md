@@ -38,7 +38,7 @@ airlinepilotforums.com
 
 ## Dataset
 
-| Paper group | Directory / CSV `Forum Category` | Posts |
+| Paper group | Directory/CSV Forum Category | Posts |
 |---|---|---:|
 | Commercial passenger | `Major` | 712,464 |
 | Commercial cargo | `Cargo` | 361,519 |
